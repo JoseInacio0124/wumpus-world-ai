@@ -28,20 +28,6 @@ Implementação de um agente inteligente baseado em conhecimento e inferência p
    - *Nota: O projeto utiliza `pygame-ce` (Community Edition) para compatibilidade com Python 3.12+, mantendo a importação padrão `import pygame`.*
    - `python src/main.py`
 
-## Organização Ágil: Sprints e Quadro Kanban (GitHub Projects)
-
-Uma **Sprint** é um ciclo curto de trabalho (5 a 7 dias) com uma entrega funcional ao final:
-- **Sprint 1 (16/11 a 22/11 — MVP):** Mundo NxN básico + agente andando em casas seguras + grid simples.
-- **Sprint 2 (23/11 a 29/11 — Avançado):** Probabilidade sob incerteza + flecha + múltiplos Wumpus + visão mental do agente.
-- **Sprint 3 (30/11 a 04/12 — Testes e Polimento):** Simulações em lote, gráficos e *Code Freeze* (04/12).
-- **Contingência (05/12 a 13/12):** Ajustes finos, slides e ensaio para a entrega oficial em **14/12**.
-
-### Como usar o Quadro Kanban (aba Projects)
-1. **Todo (A Fazer):** Tarefas planejadas para a Sprint que ainda não começaram.
-2. **In Progress (Fazendo / Em Progresso):** Arraste o cartão para cá assim que começar a programar a tarefa.
-3. **In Review (Em Revisão):** Mova para cá quando abrir o Pull Request (PR) para um colega revisar.
-4. **Done (Concluído / Feito):** Tarefa aprovada e integrada na branch `develop`.
-
 ## Fluxo de Trabalho no GitHub (Git Flow)
 
 - **`main`**: Código estável e testado (atualizada apenas ao final de cada Sprint). **Proibido push direto.**
