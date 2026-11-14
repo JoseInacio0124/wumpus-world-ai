@@ -25,6 +25,7 @@ Implementação de um agente inteligente baseado em conhecimento e inferência p
 
 3. **Instale as dependências e execute:**
    - `pip install -r requirements.txt
+   - *Nota: O projeto utiliza `pygame-ce` (Community Edition) para compatibilidade com Python 3.12+, mantendo a importação padrão `import pygame`.*
    - *Nota: O projeto utiliza `pygame-ce` (Community Edition) para compatibilidade com Python 3.12+, mantendo a importação padrão `import pygame`.*`
    - `python src/main.py`
 
